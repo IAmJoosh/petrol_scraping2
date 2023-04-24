@@ -1,4 +1,4 @@
-from .scrapers import (ShellScraper,
+from scrapers import (ShellScraper,
                       EngenScraper,
                       CaltexScraper,)
 
