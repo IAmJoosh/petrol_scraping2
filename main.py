@@ -13,9 +13,9 @@ def main():
     caltex = CaltexScraper()
 
     prices = []
-    prices.append(shell.prices())
-    prices.append(engen.prices())
-    prices.append(caltex.prices())
+    prices.append(shell.get_prices())
+    prices.append(engen.get_prices())
+    prices.append(caltex.get_prices())
 
     display_prices(prices)
 
